@@ -1,58 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <title>Deco Group Services Ltd</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
   <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
   <!-- We need this line below for responsiveness! -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body>
   <!-- code a Hero / Banner section -->
-  <div class="banner" style="background-image: url(banner.jpg);">
+  <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(images/banner.jpg);">
     <div class="container">
       <h1>Deco Group Services Ltd</h1>
       <p>Making Homes Beautiful</p>
-      <a class="btn-primary" href="#">Enquire !</a>
+      <a class="btn btn-primary" href="contact.html">ENQUIRE</a>
     </div>
   </div>
 
-  <!-- code a "How it works" section -->
-  <div class="container">
-    <h2 class="text-center">DECO BUILDING SERVICES</h2>
-    <div class="cards">
 
-      <div class="card">
-        <img src="images/apply.svg" alt="">
-        <h4>ABOUT US</h4>
+  <!-- code a "How it works" section -->
+
+  <div class="container-blue">
+    <h2 class="text-center">DECO BUILDING SERVICES</h2>
+  </div>
+
+  <div class="container">
+    <div class="cards">
+    <div class="card-category" style="background-image: url(images/blue.jpg)">
+      <h4><a href="about.html">ABOUT US</a></h4>
+    </div>
+
+    <div class="card-category" style="background-image: url(images/red.jpg)">
+      <h4><a href="about.html">OUR SERVICES</a></h4>
+    </div>
+
+    <div class="card-category" style="background-image: url(images/green.jpg)">
+      <h4><a href="about.html">PREVIOUS PROJECTS GALLERY</a></h4>
+    </div>
+    <!--   <div class="card">
+        <img src="images/blue.jpg" alt="">
+        <h4><a href="about.html"><strong>ABOUT US</strong></a></h4>
       </div>
 
       <div class="card">
-        <img src="images/learn.svg" alt="">
+        <img src="images/red.jpg" alt="">
         <h4>OUR SERVICES</h4>
       </div>
 
       <div class="card">
-        <img src="images/product.svg" alt="">
-        <h4>PREVIOUS PROJECT GALLERY</h4>
-      </div>
-
+        <img src="images/green.jpg" alt="">
+        <h4>PREVIOUS PROJECTS GALLERY</h4>
+      </div> -->
     </div>
   </div>
 
   <!-- code a footer -->
   <div class="footer">
-    <div class="links">
-      <a href="#"><i class="fab fa-fw fa-facebook-f"></i></a>
-      <a href="#"><i class="fab fa-fw fa-github"></i></a>
-      <a href="#"><i class="fab fa-fw fa-twitter"></i></a>
-      <a href="#"><i class="fab fa-fw fa-instagram"></i></a>
-      <p>2020 Deco Building Services <i class="fas fa-heart"></i>Deco Building Services.</p>
-
+    </div>
+      <div class="links">
+        <button type="button"><a href="index.html"><strong>Home</strong></a></button>
+        <button type="button"><a href="about.html"><strong>About</strong></a></button>
+        <button type="button"><a href="services.html"><strong>Services</strong></a></button>
+        <button type="button"><a href="gallery.html"><strong>Gallery</strong></a></button>
+        <button type="button"><a href="contact.html"><strong>Contact</strong></a></button>
+      </div><br>
+      <div>
+        <a href="#"><i class="fab fa-fw fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-fw fa-github"></i></a>
+        <a href="#"><i class="fab fa-fw fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-fw fa-instagram"></i></a>
+      </div>
+        <p>© 2020 Deco Building Services</p>
     </div>
   </div>
-
 </body>
 </html>
