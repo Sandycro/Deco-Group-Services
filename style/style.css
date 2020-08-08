@@ -1,13 +1,21 @@
-:root{
+@import "components/_navbar.css";
+/* :root{
   --base: #4070FF;
   --secondary: #ff7145;
   --spacing: 10px;
   --blur : 10px;
+} */
+
+html{
+  margin:0px;
+  padding: 0px;
 }
 
-img{
+/* img{
   padding: var(--spacing);
   background: var(--base);
   filter: blur(var(--blur));
-}
+} */
+
+
 
