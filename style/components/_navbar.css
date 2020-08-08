@@ -1,0 +1,28 @@
+.logo a{
+  font-weight: bolder;
+  text-decoration: none;
+  color: #4070FF;
+}
+
+.logo a:hover {
+  color: black;
+}
+
+.callToAction p{
+  background-color: #ff7145;
+  width: fit-content;
+  color: white;
+  font-weight: bolder;
+  margin-left: auto;
+  padding: 0.5rem;  
+  letter-spacing: 1px;
+}
+
+.menus a{
+  color:#4070FF;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.menus a:hover{
+  color:black;
+}
