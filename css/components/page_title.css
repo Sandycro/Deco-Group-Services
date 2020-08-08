@@ -1,10 +1,9 @@
 .page-title{
   /* width: 100vw; */
-  background-image: url(../../images/wood.jpg);
+  background-image: url(../../images/wood_copy.jpg);
   color: white;
-  position: relative;
+  background-position: center;
   background-size: cover;
-  padding: 100px 0;
 }
 
 .page-title h1{
