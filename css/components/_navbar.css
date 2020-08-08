@@ -1,11 +1,11 @@
 .logo a{
   font-weight: bolder;
   text-decoration: none;
-  color: #4070FF;
+  color: black;
 }
 
 .logo a:hover {
-  color: black;
+  color: #810000;
 }
 
 .callToAction p{
@@ -19,10 +19,19 @@
 }
 
 .menus a{
-  color:#4070FF;
+  color:black;
   font-weight: bolder;
   text-decoration: none;
 }
-.menus a:hover{
-  color:black;
+#contact-us{
+  color: #810000;
 }
+
+#contact-us:hover{
+  color: black;
+}
+
+.menus a:hover{
+  color:#810000;
+}
+

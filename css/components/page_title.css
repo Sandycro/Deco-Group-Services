@@ -1,14 +1,15 @@
 .page-title{
-  width: 100vw;
-  background-image: url(../../images/banner.jpg);
+  /* width: 100vw; */
+  background-image: url(../../images/wood.jpg);
+  color: white;
+  position: relative;
   background-size: cover;
-  background-position: right;
-  color: #db554e;
+  padding: 100px 0;
 }
 
 .page-title h1{
   width: fit-content;
   /* height: fit-content; */
-  background-color: rgba(255, 255, 255, 0.5);
+  /* background-color: rgba(255, 255, 255, 0.5); */
   
 }
