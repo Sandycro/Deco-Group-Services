@@ -1,10 +1,10 @@
-/*:root{
+/* :root{
   --base: #4070FF;
   --secondary: #ff7145;
   --spacing: 10px;
   --blur : 10px;
-}
-*/
+}*/
+
 /*img{
   padding: var(--spacing);
   background: var(--base);
@@ -15,6 +15,12 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
 
 /* Custom designs */
+/*html{
+  margin:0px;
+  padding: 0px;
+}*/
+
+@import url(components/_navbar.css);
 @import url(components/banner.css);
 @import url(components/button.css);
 @import url(components/cards.css);
