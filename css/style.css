@@ -30,9 +30,28 @@
 @import url(about_us.css);
 @import url(components/contact_form.css);
 
+
+.cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+@media(min-width: 992px) {
+  .cards{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media(max-width: 720px) {
+  .cards{
+    grid-template-columns: 1fr;
+  }
+}
 /* Utilities */
 body {
-  margin: 0;
+  /* margin: 0; */
   font-family: Open Sans;
 }
 
