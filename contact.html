@@ -23,16 +23,15 @@
         </div>
         <div class="menus flex d-flex justify-content-between p-3">
           <a href="index.html">HOME</a>
-          <a href="about-us.html">ABOUT US</a>
-          <a href="services.html">SERVICES</a>
-          <a href="gallery.html">GALLERY</a>
-          <a href="contact.html" id="contact-us">CONTACT US</a>
+          <a href="about-us.html">ABOUT</a>
+          <a href="services.html">SERVICES AND GALLERY</a>
+          <a href="contact.html" id="contact-us">CONTACT</a>
         </div>
       </div>
     </div>
   </div>
 </div>
-  <div class="page-title py-5">
+  <div class="page-title-contact py-5">
     <h1 class="container">CONTACT</h1>
   </div>
 
@@ -45,7 +44,7 @@
               <div class="description col">
                 <h2>GET IN TOUCH:</h2>
                 <p>Call: 07535085380</p>
-                <p>Email: info@foylecarpentry.co.uk</p>
+                <p>Email: emailo@deco.co.uk</p>
                 <p>Address:</p>
                 <p>Street</p>
                 <p>United Kingdom</p>
@@ -53,20 +52,20 @@
               </div>
             </div>
             <div class="column">
-              <form action="/action_page.php">
+              <form class="contact_form" action="contact-form-handler.php" method=”POST” enctype="multipart/form-data">
                 <div style="text-align:center">
                   <h2>LEAVE US A MESSAGE:</h2>
                 </div>
                 <label for="fname">Name</label>
-                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  <input type="text" id="name" name="name" placeholder="Your name" required>
                   <label for="country">Subject</label>
-                  <input type="text" id="subject" name="subject<" placeholder="Subject..">
-                  <label for="subject">Email</label>
-                  <input type="text" id="email" name="email<" placeholder="Email..">
+                  <input type="text" id="subject" name="subject<" placeholder="Subject" required>
+                  <label for="subject">Email</label><br>
+                  <input type="text" id="email" name="email<" placeholder="Your Email" required>
                   <label for="subject">Telephone</label>
-                  <input type="text" id="telephone" name="telephone<" placeholder="Telephone..">
+                  <input type="text" id="telephone" name="telephone<" placeholder="Telephone" required>
                   <label for="subject">Enquiry</label>
-                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                  <textarea id="subject" name="subject" placeholder="Write something..." style="height:170px" required></textarea>
                   <input type="submit" value="Submit">
               </form>
             </div>
@@ -75,8 +74,6 @@
       </div>
     </div>
   </div>
-
-
 
   <div class="container-call">
     <h2 class="text-center">GET IN TOUCH ON: 07535085380</h2>
