@@ -1,9 +1,11 @@
-.body-page{
+.body-page {
   display: flex;
   justify-content: space-between;
 }
 
-.about-image{
-  background-image: url(../images/green.jpg);
+.about-image {
+  background-image: url(../images/large.jpg);
   background-size: cover;
+  height: 300px;
+  width: 900px;
 }
