@@ -40,3 +40,26 @@
   justify-content: space-between;
   margin-bottom: 30px;
 }
+
+
+.card-category-gallery {
+  width: 400px;
+  height: 500px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  margin: 20px;
+  transition: all 2s;
+}
+
+.card-category-gallery:hover {
+  transform: scale(1.1);
+}

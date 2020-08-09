@@ -28,3 +28,10 @@
   font-size: 24px;
   font-weight: lighter;
 }
+
+.container-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+

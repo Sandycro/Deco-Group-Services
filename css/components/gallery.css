@@ -1,0 +1,11 @@
+.body-page{
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery-image{
+  background-image: url(../images/biggreen.jpg);
+  background-size: cover;
+  height: 300px;
+  width: 900px;
+}

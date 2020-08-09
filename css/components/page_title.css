@@ -8,7 +8,32 @@
 
 .page-title h1{
   width: fit-content;
+  text-align: left;
   /* height: fit-content; */
   /* background-color: rgba(255, 255, 255, 0.5); */
-  
+}
+
+.page-title-gallery {
+  background-image: url(../../images/biggreen.jpg);
+  color: white;
+  background-position: center;
+  background-size: cover;
+ }
+
+.page-title-gallery h1{
+  width: fit-content;
+  text-align: left;
+}
+
+.page-title-services {
+  background-image: url(../../images/bigbrick.jpg);
+  color: white;
+  background-position: center;
+  background-size: cover;
+  linear-gradient: rgba(0,0,0,0.4),rgba(0,0,0,0.4);
+}
+
+.page-title-services h1 {
+  width: fit-content;
+  text-align: left;
 }
