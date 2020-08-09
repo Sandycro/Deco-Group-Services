@@ -40,7 +40,7 @@
 
 .menus{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 3px;
   text-align: center;
 }

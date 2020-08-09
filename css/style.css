@@ -38,13 +38,13 @@
   justify-items: center;
 }
 
-@media(min-width: 992px) {
+@media(max-width: 992px) {
   .cards{
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
-@media(max-width: 720px) {
+@media(max-width: 768px) {
   .cards{
     grid-template-columns: 1fr;
   }
