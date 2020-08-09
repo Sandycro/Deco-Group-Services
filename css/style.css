@@ -28,6 +28,7 @@
 @import url(components/footer.css);
 @import url(components/page_title.css);
 @import url(about_us.css);
+@import url(components/contact_form.css);
 
 /* Utilities */
 body {
