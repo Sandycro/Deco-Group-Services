@@ -1,7 +1,14 @@
-
 .button {
-  border: 1px solid blue;
+  border: 1px solid #821b20;
   padding: 8px 16px;
   border-radius: 9px;
   color: blue;
+}
+
+.button2 {
+  border: 1px solid white;
+  padding: 8px 24px;
+  border-radius: 9px;
+  background-color: #821b20;
+  color: white;
 }

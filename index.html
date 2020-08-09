@@ -31,30 +31,51 @@
     </div>
   </div>
 </div>
-  <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(images/banner.jpg);">
+<!--   <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(images/banner.jpg);">
     <div class="container">
       <h1>Deco Group Services Ltd</h1>
       <p>Making <strong>Homes </strong>Beautiful</p>
-      <a class="btn btn-primary" href="contact.html">ENQUIRE</a>
+      <button class="button2" type="button" href="contact.html">ENQUIRE</a>
     </div>
-  </div>
+  </div> -->
+  <!-- The video -->
   <div class="container-title">
     <h2 class="text-center">WELCOME TO DECO BUILDING SERVICES</h2>
   </div>
+  <!-- <div class="container">
+    <h1>Deco Group Services Ltd</h1>
+    <p>Making <strong>Homes </strong>Beautiful</p>
+    <button class="button2" type="button" href="contact.html">ENQUIRE</a>
+  </div> -->
+  <div class="content">
+    <h1>Deco Group Services Ltd</h1>
+      <h2>Making <strong>Homes </strong>Beautiful</h2>
+      <button class="button2" type="button" href="contact.html">ENQUIRE</button>
+      <a class="button2" type="button" href="contact.html" id="contact-us">ENQUIRE</a>
+  </div>
+  <video autoplay muted loop id="myVideo">
+    <source src="images/3D.mp4" type="video/mp4">
+  </video>
+  <!-- Optional: some overlay text to describe the video -->
+  <div class="conainer">
+    <div class="content">
+<!--         <button id="myBtn" onclick="myFunction()">Pause</button><br>
+ -->    </div>
+  </div>
+    <!-- Use a button to pause/play the video with JavaScript -->
+
   <div class="container">
-    <div class="container">
-      <div class="cards my-5">
-        <div class="card-category" style="background-image: url(images/wood.jpg)">
-          <h4><a href="about-us.html">ABOUT US</a></h4>
-        </div>
+    <div class="cards my-5">
+      <div class="card-category" style="background-image: url(images/wood.jpg)">
+        <h4><a href="about-us.html">ABOUT US</a></h4>
+      </div>
 
-        <div class="card-category" style="background-image: url(images/green.jpg)">
-          <h4><a href="services.html">OUR SERVICES AND GALLERY</a></h4>
-        </div>
+      <div class="card-category" style="background-image: url(images/green.jpg)">
+        <h4><a href="services.html">OUR SERVICES AND GALLERY</a></h4>
+      </div>
 
-        <div class="card-category" style="background-image: url(images/red.jpg)">
-          <h4><a href="contact.html">CONTACT</a></h4>
-        </div>
+      <div class="card-category" style="background-image: url(images/red.jpg)">
+        <h4><a href="contact.html">CONTACT</a></h4>
       </div>
     </div>
   </div>
@@ -76,6 +97,20 @@
       <p>© 2020 Deco Building Services</p>
     </div>
   </div>
+  <script>
+  var video = document.getElementById("myVideo");
+  var btn = document.getElementById("myBtn");
+
+  function myFunction() {
+    if (video.paused) {
+      video.play();
+      btn.innerHTML = "Pause";
+    } else {
+      video.pause();
+      btn.innerHTML = "Play";
+    }
+  }
+  </script>
 
 </body>
 </html>
