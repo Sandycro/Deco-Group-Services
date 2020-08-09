@@ -13,14 +13,17 @@
 }
 
 .page-title-gallery {
-  background: black;
+  width: 100%;
+  height: 100px;
+  background-color: black;
   color: white;
-  background-position: center;
-  background-size: cover;
+  text-align: center;
+  font-weight: lighter;
  }
 
 .page-title-gallery h1{
   width: fit-content;
+  font-size: 30px;
 }
 
 .page-title-services {
