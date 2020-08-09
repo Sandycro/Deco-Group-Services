@@ -1,7 +1,28 @@
+.logo-line{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+@media(min-width: 992px) {
+  .logo-line {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(max-width: 768px) {
+  .logo-line {
+    grid-template-columns: 1fr;
+  }
+}
+
 .logo a{
   font-weight: bolder;
   text-decoration: none;
   color: black;
+  width: fit-content;
+  margin: auto;
 }
 
 .logo a:hover {
@@ -13,11 +34,28 @@
   width: fit-content;
   color: white;
   font-weight: bolder;
-  margin-left: auto;
   padding: 0.5rem;
   letter-spacing: 1px;
 }
 
+.menus{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 3px;
+  text-align: center;
+}
+
+@media(max-width: 992px) {
+  .menus {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(max-width: 768px) {
+  .menus {
+    grid-template-columns: 1fr;
+  }
+}
 .menus a{
   color:black;
   font-weight: bolder;
