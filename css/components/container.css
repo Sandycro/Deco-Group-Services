@@ -5,8 +5,9 @@
 
 .container-title {
   width: 100%;
-  height: 150px;
-  background-color: black;
+  height: 140px;
+  /*background-color: #4070FF;*/
+  background-color: #588da8;
   color: white;
   text-align: center;
   display: flex;

@@ -33,20 +33,22 @@ body {
   min-height: 400px;*/*/
   background-size: cover;
   background-position: center;
-  padding: 50px 0;
+  padding: 10px 0;
   height: 1000px;
   width: 100%;
 }
 
 .content {
-  bottom: 0;
+/*bottom: 0;
+ background-color: #3282b8
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
-  width: 100%;
+  width: 100%;*/
   padding: 20px;
+  margin-left: 80px;
 }
 
-#myBtn {
+/*#myBtn {
   width: 200px;
   font-size: 18px;
   padding: 10px;
@@ -59,4 +61,4 @@ body {
 #myBtn:hover {
   background: #ddd;
   color: black;
-}
+}*/

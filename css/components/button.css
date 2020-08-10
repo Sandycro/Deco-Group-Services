@@ -10,5 +10,6 @@
   padding: 8px 24px;
   border-radius: 9px;
   background-color: #821b20;
-  color: white;
+  color: white !important;
+  font-weight: bold;
 }
