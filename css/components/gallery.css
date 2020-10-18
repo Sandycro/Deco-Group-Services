@@ -9,14 +9,3 @@
   height: 300px;
   width: 900px;
 }
-
-.description{
-  text-align: center;
-}
-
-.description ul li{
-  display: inline;
-}
-.services-list{
-  align-items: center;
-}

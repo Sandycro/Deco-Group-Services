@@ -25,6 +25,19 @@ input[type=submit]:hover {
   background-color: #821b20;
 }
 
+input[type=reset] {
+  background-color: #821b20;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 9px;
+}
+
+input[type=reset]:hover {
+  background-color: #821b20;
+}
+
 /* Style the container/contact section */
 .container-form {
   border-radius: 5px;

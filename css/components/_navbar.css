@@ -17,26 +17,25 @@
   }
 }
 
-.logo{
-  background-image: url(../../images/lgo.png);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100px;
-  height: 100px;
+.logo a{
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+  width: fit-content;
   margin: auto;
-
 }
 
+.logo a:hover {
+  color: #810000;
+}
 
 .callToAction p{
-  background-color: white;
+  background-color: #810000;
   width: fit-content;
-  color: #810000;
+  color: white;
   font-weight: bolder;
   padding: 0.5rem;
   letter-spacing: 1px;
-  border: #810000 solid 2px;
 }
 
 .menus{

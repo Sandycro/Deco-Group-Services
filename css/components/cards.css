@@ -79,8 +79,3 @@
 .card-category-gallery:hover {
   transform: scale(1.1);
 }
-
-.services-list{
-  display: flex;
-  justify-content: center;
-}
