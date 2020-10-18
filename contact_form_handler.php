@@ -1,28 +1,36 @@
 <?php
-  $name = $_POST['name'];
-  $subject  = $_POST['subject'];
-  $email = $_POST['email'];
-  $telephone = $_POST['telephone'];
-  $enquiry = $_POST['enquiry'];
+  $name = $_GET['name'];
+  $subject  = $_GET['subject'];
+  $email = $_GET['email'];
+  $telephone = $_GET['telephone'];
+  $enquiry = $_GET['enquiry'];
 
-  $email_from = 'sandy.smircic@hotmail.com';
+  $email_to = 'sandy.smircic@hotmail.com';
+  $subject = 'Message from a site visitor '.$name;
 
-  $email_subject = "New Form Submission";
+  $body_message = 'From: '.$name."\n";
+  $body_message .= 'Subject: '.$subject."\n";
+  $body_message .= 'E-mail: '.$email."\n";
+  $body_message .= 'Telephone: '.$telephone."\n";
+  $body_message .= 'Message: '.$enquiry;
 
-  $email_body = "User Name: $name.\n".
-                  "Subject: $subject.\n".
-                   "User email: $email.\n".
-                      "User Telephone: $telephone.\n".
-                        "User Enquiry: $enquiry.\n";
+  $headers = "From: $email\r\n";
+  $headers .= "Reply-To: $email\r\n";
 
+  $mail_status = mail($email_to, $subject, $body_message, $headers);
 
-  $to = "sandy.smircic@hotmail.com";
-
-  $headers = "From: $email_from \r\n";
-
-  $headers .= "Reply-To: $visitor_email \r\n";
-
-  mail($to,$email_subject,$email_body,$headers);
-
-  header("Location: contact.html");
-?>
+  if ($mail_status) { ?>
+    <script language="javascript" type="text/javascript">
+      alert('Thank you for the message. We will contact you shortly.');
+      window.location = 'contact.html';
+    </script>
+  <?php
+  }
+  else { ?>
+    <script language="javascript" type="text/javascript">
+      alert('Message failed. Please, send an email to emailo@deco.co.uk');
+      window.location = 'contact.html';
+    </script>
+  <?php
+  }
+  ?>

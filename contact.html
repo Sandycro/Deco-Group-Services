@@ -16,10 +16,10 @@
 <div class="logo-line">
   <!-- logo & call to action -->
   <div class="logo">
-    <a href="index.html"></a>
+    <a href="index.html">Deco Group Services</a>
   </div>
   <div class="callToAction">
-    <p>CALL NOW: 07535085380</p>
+    <p>CALL ON: 07535085380</p>
   </div>
 </div>
 <!-- menus -->
@@ -52,21 +52,23 @@
               </div>
             </div>
             <div class="column">
-              <form class="contact_form" action="contact-form-handler.php" method=”POST” enctype="multipart/form-data">
+              <form id="main-contact-form" class="contact_form" action="contact_form_handler.php" method=”post” enctype="multipart/form-data">
                 <div style="text-align:center">
                   <h2>LEAVE US A MESSAGE:</h2>
                 </div>
-                <label for="fname">Name</label>
+                  <label for="name">Name</label>
                   <input type="text" id="name" name="name" placeholder="Your name" required>
-                  <label for="country">Subject</label>
-                  <input type="text" id="subject" name="subject<" placeholder="Subject" required>
-                  <label for="subject">Email</label><br>
-                  <input type="text" id="email" name="email<" placeholder="Your Email" required>
-                  <label for="subject">Telephone</label>
-                  <input type="text" id="telephone" name="telephone<" placeholder="Telephone" required>
-                  <label for="subject">Enquiry</label>
-                  <textarea id="subject" name="subject" placeholder="Write something..." style="height:170px" required></textarea>
+                  <label for="subject">Subject</label>
+                  <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                  <label for="email">Email</label><br>
+                  <input type="text" id="email" name="email" placeholder="Your Email" required>
+                  <label for="telephone">Telephone</label>
+                  <input type="text" id="telephone" name="telephone" placeholder="Telephone" required>
+                  <label for="enquiry">Enquiry</label>
+                  <textarea id="enquiry" name="enquiry" placeholder="Write something..." style="height:170px" required></textarea>
+                  <input type="hidden" name="browser_check" value="false" />
                   <input type="submit" value="Submit">
+                  <input type="reset" value="Clear">
               </form>
             </div>
           </div>
@@ -84,7 +86,7 @@
     <div class="links">
       <button class="button" type="button"><a href="index.html"><strong>Home</strong></a></button>
       <button class="button" type="button"><a href="about-us.html"><strong>About</strong></a></button>
-      <button class="button" type="button"><a href="services.html"><strong>Services</strong></a></button>
+      <button class="button" type="button"><a href="services.html"><strong>Services & Gallery</strong></a></button>
       <button class="button" type="button"><a href="contact.html"><strong>Contact</strong></a></button>
     </div><br>
     <div>
@@ -99,3 +101,4 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
+
